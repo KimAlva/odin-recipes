@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(198, 248, 246);
+  color: rgb(9, 91, 105);
+  margin: 0 70px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 15px;
+  list-style: none;
+  padding: 5px;
+  background-color: rgb(152, 214, 216);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 55px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  color: white;
+  padding: 20px;
+  background: cadetblue;
+  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 1200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.img {
+  width: 60%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 5%;
+  align-self: center;
+}
+
+
+.description {
+  width: 340px;
+  
+  text-align: center;
+  align-self: center;
+  line-height: 1;
+}
+
+
+.dish {
+  font-size: 40px;
+}
+
+.script {
+  font-size: 20px;
+}
+
+
+.time {
+  font-size: 15px;
+  font-weight: 600;
+  color:rgb(8, 72, 83);
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.time::after {
+  display: block;
+    content: '';
+   width: 100%;
+   height: 1px;
+   background:rgb(8, 72, 83);
+   position: absolute;
+   bottom: 0;
+   left: 0;
+ }
+
+.directions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ingredients {
+  max-width: 450px;
+}
+
+.ing-title {
+  text-align: center;
+}
+
+.steps {
+  min-width: 300px;
+  max-width: 650px;
+}
+
+.step-title {
+  text-align: center;
+}
